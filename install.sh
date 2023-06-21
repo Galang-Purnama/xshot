@@ -79,14 +79,14 @@ if [[ ! "${dir_package}/${package[2]}" ]]; then
 else
   ad
 fi
-echo -e "${r}[${y}Bc${r}]"
+echo -e "${r}[${y}inotify-tools${r}]"
 if [[ ! "${dir_package}/${package[3]}" ]]; then
   apt install inotify-tools -y
   check
 else
   ad
 fi
-echo -e "${r}[${y}Bc${r}]"
+echo -e "${r}[${y}inotify-tools imagemagick bc${r}]"
 if [[ ! "${dir_package}/${package[4]}" ]]; then
   apt install inotify-tools imagemagick bc -y
   check
